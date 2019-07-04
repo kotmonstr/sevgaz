@@ -1,0 +1,66 @@
+
+---Downloaded files---
+The import files for: Demo Import 1 were successfully downloaded!
+Initial max execution time = 60
+Files info:
+Site URL = http://sev-stroy-snab.loc
+Data file = /home/kot/www/sev-stroy-snab.loc/wp-content/uploads/2019/04/demo-content-import-file_2019-04-18__13-16-17.xml
+Widget file = /home/kot/www/sev-stroy-snab.loc/wp-content/uploads/2019/04/demo-widgets-import-file_2019-04-18__13-16-17.json
+Customizer file = /home/kot/www/sev-stroy-snab.loc/wp-content/uploads/2019/04/demo-customizer-import-file_2019-04-18__13-16-17.dat
+Redux files:
+not defined!
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+---Importing widgets---
+Sidebar widget area : 
+
+Поиск - Search - Imported
+Архивы - No Title - Widget already exists
+Рубрики - No Title - Widget already exists
+
+Call to action top widget area : 
+
+WBR : Call To Action Top - No Title - Imported
+
+Homepage service section - sidebar : 
+
+WBR : Page Widget - No Title - Imported
+WBR : Page Widget - No Title - Imported
+WBR : Page Widget - No Title - Imported
+WBR : Page Widget - No Title - Imported
+
+Homepage project section - sidebar : 
+
+WBR : Page Widget - No Title - Imported
+WBR : Page Widget - No Title - Imported
+WBR : Page Widget - No Title - Imported
+WBR : Page Widget - No Title - Imported
+
+sidebar-news : Sidebar does not exist in theme (moving widget to Inactive)
+
+rambo_recent_news_widget - Latest News - Site does not support widget
+
+Footer widget area : 
+
+WBR : Sidebar Latest News - Latest News - Imported
+Облако меток - Tag Cloud - Imported
+Текст - Contact Info - Imported
+
+
+
+---Importing customizer settings---
+Customizer settings import finished!
+
+---pt-ocdi/after_import---
+

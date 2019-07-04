@@ -1,0 +1,742 @@
+.footer-section .footer_social .uptl_toolbar.uptl_toolbar_share ul.horizontal li {
+    padding: 0 7px !important;
+}
+
+.logo-title {
+    display: inline;
+!important;
+    font-weight: bold;
+}
+
+.slick-slide {
+    margin-right: 0px !important;
+}
+
+.wpcp-carousel-section .wpcp-single-item img {
+    width: 100%;
+    height: 200px;
+}
+
+.wpcp-carousel-section .wpcp-single-item {
+    overflow: hidden;
+    height: 200px;
+}
+
+.navbar .nav {
+    margin: 10px 0px 0 0;
+}
+
+.purchase_now_btn {
+    margin: 20px 0px;
+}
+
+.portfolio_main_content .featured_port_projects {
+    padding: 30px 0px 0px;
+}
+
+.purchase_main_content  {
+    padding: 0px;
+    background-color: #1b7a96;
+
+}
+#logo-main-page{
+    background: url("../alvion/images/ogon.png") center no-repeat;
+    background-size: contain;
+    //height: 100px;
+}
+
+
+
+
+
+.banner-logo-wide{
+    background: url("../alvion/images/banner.png") center no-repeat;
+    background-size: cover;
+    height: 400px;
+
+}
+.title-banner {
+    z-index: 2;
+    color: #fff8e5;
+    font-size: 72px;
+    font-weight: bold;
+}
+.flex-text{
+    //display: block;
+    vertical-align: center;
+    text-align: center;
+}
+
+
+
+
+
+.wpcp-carousel-section.nav-vertical-center {
+    padding: 0 0px;
+!important;
+
+}
+
+.slick-arrow {
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+.company-statistics {
+    background-color: #153846;
+    width: 100%;
+    height: 100px;
+}
+
+.company-statistics h1 {
+    color: #b42020;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.company-statistics p {
+    color: #cccccc;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.company-statistics img {
+    width: 50px;
+    height: 50px;
+}
+
+#statistic-progect-image {
+    background: url("../alvion/images/icons_numbers/project.png") center no-repeat;
+    background-size: auto;
+    height: 50px;
+    width: 50px;
+    display: block;
+}
+
+#statistic-worker-image {
+    background: url("../alvion/images/icons_numbers/staff.png") center no-repeat;
+    background-size: auto;
+    height: 50px;
+    width: 50px;
+    display: block;
+}
+
+#statistic-sert-image {
+    background: url("../alvion/images/icons_numbers/sert.png") center no-repeat;
+    background-size: auto;
+    height: 50px;
+    width: 50px;
+    display: block;
+}
+
+#statistic-technic-image {
+    background: url("../alvion/images/icons_numbers/technic.png") center no-repeat;
+    background-size: auto;
+    height: 50px;
+    width: 50px;
+    display: block;
+}
+
+.left-statistic {
+    float: left;
+    width: 50px;
+    margin-right: 10px;
+}
+
+.right-stastistic {
+    float: left;
+}
+
+.hero-widgets-section {
+    background-color: #f6f5f5;
+
+}
+
+.hero-widgets-section p, .footer_widget .textwidget {
+    color: #767676;
+
+}
+
+.footer_widget .widget_title h2, .footer_widget.widget_rss h2 a.rsswidget {
+    color: #767676;
+}
+
+.testimonial-main {
+    background: url("../alvion/images/testimonals.jpg") center no-repeat;
+    background-size: cover;
+    height: 150px;
+    width: 100%;
+    position: relative;
+}
+
+.testimonial_rotator_author_info p, .testimonial_rotator_author_info h2 {
+    color: #fff !important;
+}
+
+.testimonial_rotator_slide_title {
+    color: #fff !important;
+}
+
+.widget_rambo_feature_page_widget p {
+    display: none;
+}
+
+.widget-title {
+    padding: 0px;
+    margin: 0px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.featured-service-img {
+    margin: 0 0 0px;
+}
+
+.featured_port_projects h2 {
+    margin: 0px !important;
+    padding: 5px !important;
+    text-align: center;
+}
+
+.red-link:hover {
+    color: #fff;
+}
+
+.red-link-black-hover {
+    color: #1b7a96;
+}
+
+.red-link-black-hover:hover {
+    color: #000;
+}
+
+.menu-project li p {
+    margin: 0px;
+    text-transform: uppercase;
+}
+
+.content-project h1 {
+    font-weight: bold;
+    padding: 10px 10px;
+}
+
+.non-caption {
+    text-transform: none !important;
+}
+
+.menu-project li {
+    border: 1px solid #ccc;
+    color: #0e0e0e;
+    padding: 10px;
+    list-style: none;
+    background-color: #fff;
+    margin-bottom: 2px;
+}
+
+.menu-project li:hover {
+    color: #fff;
+    font-weight: bold;
+    background-color: #1b7a96;
+}
+
+.menu-project li:hover p {
+    color: #fff;
+    font-weight: bold;
+
+}
+
+.blog_single_post {
+    background-color: #f6f5f5;
+}
+
+.all-adress {
+    margin-top: 20px;
+}
+
+#adress-box .icon-adress {
+    background: url("../alvion/images/icons_contacts/pointer.png") center no-repeat;
+    background-size: auto;
+    height: 65px;
+    width: 50px;
+    display: block;
+}
+
+#adress-box .icon-mobile {
+    background: url("../alvion/images/icons_contacts/mobile.png") center no-repeat;
+    background-size: auto;
+    height: 65px;
+    width: 50px;
+    display: block;
+}
+
+#adress-box .icon-clock {
+    background: url("../alvion/images/icons_contacts/clock.png") center no-repeat;
+    background-size: auto;
+    height: 65px;
+    width: 50px;
+    display: block;
+}
+
+#adress-box .icon-envelope {
+    background: url("../alvion/images/icons_contacts/letter.png") center no-repeat;
+    background-size: auto;
+    height: 65px;
+    width: 50px;
+    display: block;
+}
+
+#adress-box-index .icon-adress {
+    background: url("../alvion/images/icons_contacts/pointer.png") center no-repeat;
+    background-size: auto;
+    height: 52px;
+    width: 50px;
+    display: block;
+}
+
+#adress-box-index .icon-mobile {
+    background: url("../alvion/images/icons_contacts/mobile.png") center no-repeat;
+    background-size: auto;
+    height: 25px;
+    width: 50px;
+    display: block;
+}
+
+#adress-box-index .icon-clock {
+    background: url("../alvion/images/icons_contacts/clock.png") center no-repeat;
+    background-size: auto;
+    height: 25px;
+    width: 50px;
+    display: block;
+}
+
+#adress-box-index .icon-envelope {
+    background: url("../alvion/images/icons_contacts/letter.png") center no-repeat;
+    background-size: auto;
+    height: 25px;
+    width: 50px;
+    display: block;
+}
+
+.icons {
+    display: block;
+    float: left;
+
+}
+
+.cel-adress {
+    margin-bottom: 20px;
+}
+
+.adress-text-bold {
+    font-weight: bold;
+}
+
+#comanda-descr h3 {
+    font-weight: bold;
+    padding: 10px 0px;
+    margin-bottom: 0px;
+}
+
+.title-upercase {
+    text-transform: uppercase;
+    color: #000;
+    font-weight: bold;
+    padding: 10px 0px 0px 0px;
+    margin-bottom: 0px;
+}
+
+.featured_port_title h1, .featured_port_title p {
+    text-align: left;
+}
+
+.featured_port_title p {
+    margin: 5px 0px 0px 0px;
+}
+
+.list-menu-project {
+    padding: 0px;
+}
+
+.red-line {
+    background-color: #1b7a96;
+    height: 5px;
+    width: 31px;
+    margin: 10px 0px 10px 0px;
+}
+
+.box-copany-descr {
+    max-height: 580px;
+    height: 580px;
+    overflow: hidden;
+}
+
+.caption-text {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #000;
+}
+
+.red-title {
+    color: #1b7a96;
+    font-weight: bold;
+}
+
+#sidebar-project {
+    margin-bottom: 20px;
+}
+
+.frm_submit {
+    float: right;
+}
+
+.featured_port_title h1 {
+    font-size: 26px;
+}
+
+.sidebar, .blog_section2 {
+    background-color: #f6f5f5;
+}
+
+.red-line-title {
+    color: #fff;
+    vertical-align: middle;
+    font-size: 22px !important;
+    font-weight: normal;
+    line-height: 74px !important;
+    margin: 13px 0;
+}
+
+.red-line-span {
+    font-size: 14px;
+    margin-left: 23px;
+}
+
+.link-gray {
+
+}
+
+.fa-chevron-right, .fa-chevron-left {
+    color: #fff;
+}
+
+.with-prevnext {
+    z-index: 100;
+    opacity: 0.8 !important;
+    display: block;
+    visibility: inherit;
+    background-color: #012b2a;
+
+}
+
+.template-default .has-image .text, .testimonial_rotator_single.has-image.template-default .text {
+    margin-top: 53px !important;
+}
+
+.testimanals-title {
+    z-index: 9999;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 40px;
+    display: block;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+}
+
+.testimonial_rotator_prev, .testimonial_rotator_next {
+    top: 45% !important;
+}
+
+.testimonial_rotator_wrap.with-prevnext {
+    padding: 35px 126px;
+}
+
+.testimonial_rotator_prev {
+    left: 57px;
+}
+
+.testimonial_rotator_next {
+    right: 57px;
+}
+
+.testimonial_rotator.template-default .has-image .img img, .testimonial_rotator_single.has-image.template-default .img img {
+    max-width: 60px !important;
+}
+
+.portfolio_main_content, .additional_section_one {
+    /*padding: 20px 57px 12px;*/
+}
+
+.hero-widgets-section {
+
+    padding: 0px 0px;
+
+}
+
+.menu-bottom a {
+    color: #fff;
+}
+
+.menu-bottom {
+    color: #fff;
+    padding: 0px 10px;
+}
+
+.menu-bottom li {
+    display: inline; /* Отображать как строчный элемент */
+    margin-right: 15px; /* Отступ слева */
+    padding: 3px; /* Поля вокруг текста */
+}
+
+.menu-bottom ul {
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+
+.menu-bottom .red-link {
+    text-shadow: 1px 1px 3px #000;
+    color: #1b7a96;
+    font-weight: bold;
+}
+
+.menu-bottom .red-link:hover {
+    color: #fff;
+}
+
+.copy-r {
+    color: #fff;
+}
+
+.footer_social {
+    margin-top: 10px;
+    margin-right: 60px;
+}
+
+.footer-section {
+    padding: 0px !important;
+}
+
+.red-link-fl-right {
+    color: #1b7a96;
+    display: block;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-weight: bold;
+}
+
+.red-link-fl-right:hover {
+    color: #000;
+    cursor: pointer;
+
+}
+
+.red-link-black-hover:hover {
+    color: #000;
+    cursor: pointer;
+
+}
+
+.red-link-black-hover {
+    font-weight: bold;
+}
+
+.menu-top-gray {
+    background: url("../alvion/images/banner-line.png") center no-repeat;
+    background-size: cover;
+    display: block;
+    width: 100%;
+    position: relative;
+}
+
+.navbar .nav-new > li > a {
+    color: #fff;
+    border-left: 0px solid #ffffff;
+}
+
+.logo-new small {
+    color: #fff;
+
+}
+
+.navbar-inner {
+    background: none;
+}
+
+#menu-main-menu li a {
+    padding: 10px 10px;
+}
+
+#adress-box-index {
+    margin-left: -15px;
+}
+
+.list-menu-project li.active {
+    background-color: #1b7a96;
+    color: #fff;
+}
+
+.list-menu-project a li {
+    text-transform: uppercase;
+
+}
+
+.frm_button_submit {
+    text-transform: uppercase;
+    padding: 10px 35px !important;
+}
+
+.red-line-title {
+    text-transform: uppercase;
+}
+
+.box-copany-descr .featured_port_projects img {
+    height: 250px;
+}
+
+.uptlk_wdgt_58Jbh .uptl_toolbar.uptl_toolbar_share ul.horizontal li {
+    padding: 20px 20px !important;
+    margin: 20px 20px !important;
+}
+
+.content-box {
+    margin: 10px 0px;
+}
+
+.blog_section2 {
+    position: relative;
+}
+
+.lh-alv-25 {
+    line-height: 25px !important;
+}
+
+.red-box-pdf {
+    background-color: #1b7a96;
+    color: #fff;
+    padding: 20px;
+}
+
+@media (max-width: 1200px) {
+    .banner-logo-wide {
+        height: 250px;
+    }
+
+    .btn-navbar {
+        z-index: 3;
+        position: relative;
+    }
+
+    .menu-top-gray {
+        z-index: 2;
+    }
+
+    a.brand {
+        display: none;
+    }
+
+    a.brand img {
+        /* display: none;*/
+    }
+
+    .logo-title small {
+        font-size: 25px;
+    }
+
+    .navbar .nav > li > a {
+        padding: 15px 20px 0px 0px;
+    }
+
+}
+
+@media (max-width: 979px) {
+
+    .banner-logo-wide {
+        height: 200px;
+    }
+
+    .navbar .brand {
+        float: none;
+    }
+
+    .nav-collapse, .nav-collapse.collapse {
+        font-size: 20px;
+    }
+
+    .nav-collapse, .nav-collapse.collapse small {
+        font-size: 20px;
+    }
+
+    #fixed-logo, #fixed-logo-title {
+        display: block;
+    }
+
+    #fixed-logo {
+        top: 0px;
+        left: 250px;
+    }
+
+    #fixed-logo-title {
+        top: 0px;
+        left: 300px;
+    }
+
+}
+
+@media (max-width: 640px) {
+    .banner-logo-wide {
+        height: 100px;
+    }
+
+    .purchase_now_content {
+        display: none;
+    }
+
+    .company-statistics {
+        display: none;
+    }
+
+    .testimonial-main {
+        display: none;
+    }
+
+    #fixed-logo {
+
+        top: 0px;
+        left: 150px;
+    }
+
+    #fixed-logo-title {
+        top: 0px;
+        left: 200px;
+    }
+
+}
+
+@media (max-width: 480px) {
+    #fixed-logo {
+        top: 0px;
+        left: 50px;
+    }
+
+    #fixed-logo-title {
+        top: 0px;
+        left: 100px;
+    }
+
+}
+
+@media (max-width: 319px) {
+    #fixed-logo {
+        display: none;
+    }
+
+    #fixed-logo-title {
+        display: none;
+    }
+
+}
+
