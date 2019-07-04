@@ -23,7 +23,7 @@
 }
 
 .navbar .nav {
-    margin: 10px 0px 0 0;
+    margin: 18px 0px 0 0;
 }
 
 .purchase_now_btn {
@@ -644,7 +644,7 @@
     }
 
     .logo-title small {
-        font-size: 25px;
+        font-size: 24px;
     }
 
     .navbar .nav > li > a {
