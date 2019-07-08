@@ -16,16 +16,158 @@
         <div class="row-fluid featured_port_title" >
 
             <div class="red-line"></div>
-            <div class="caption-tile-about">
-                <p class="caption-text">Факты о компании</p>
-                <p class="red-title">Большому кораблю - большое плавание</p>
+            <div class="caption-tile-about" style="margin-bottom: 20px">
+                <p class="caption-text">Карточка предприятия</p>
+            </div>
+
+            <table>
+
+                    <tbody>
+                        <tr>
+                            <td>Полное наименование</td>
+                            <td>Государственное унитарное предприятие города Севастополя по газораспределению и газоснабжению «Севастопольгаз»</td>
+                        </tr>
+
+                        <tr>
+                            <td>Сокращенное наименование</td>
+                            <td>ГУП «Севастопольгаз»</td>
+                        </tr>
+
+                        <tr>
+                            <td>Генеральный директор</td>
+                            <td>Самойленко Сергей Анатольевич</td>
+                        </tr>
+
+                        <tr>
+                            <td>Действует на основании</td>
+                            <td>Устав</td>
+                        </tr>
+
+                        <tr>
+                            <td>Юридический адрес</td>
+                            <td>299029, г. Севастополь, проспект Генерала Острякова, д. 17</td>
+                        </tr>
+
+                        <tr>
+                            <td>Почтовый адрес</td>
+                            <td>299029, г. Севастополь, проспект Генерала Острякова, д. 17</td>
+                        </tr>
+
+                        <tr>
+                            <td>Телефон/факс</td>
+                            <td>+7 (978) 082-62-32 </td>
+                        </tr>
+
+                        <tr>
+                            <td>E-mail:</td>
+                            <td>gup-sevgaz@mail.ru</td>
+                        </tr>
+
+                        <tr>
+                            <td>ИНН/КПП</td>
+                            <td>9204558632/920401001</td>
+                        </tr>
+                        <tr>
+                            <td>ОГРН</td>
+                            <td>1159204031546</td>
+                        </tr>
+                        <tr>
+                            <td>Расчётный счет</td>
+                            <td>4060 2810 1425 6010 0005</td>
+                        </tr>
+                        <tr>
+                            <td>Корреспондентский счет</td>
+                            <td>3010 1810 3351 0000 0607</td>
+                        </tr>
+                        <tr>
+                            <td>БИК банка</td>
+                            <td>043510607</td>
+                        </tr>
+
+                        <tr>
+                            <td>Банк</td>
+                            <td>РНКБ Банк (ПАО) г. Симферополь</td>
+                        </tr>
+                    </tbody>
+            </table>
+
+            <div class="red-line"></div>
+            <div class="caption-tile-about" style="margin-bottom: 20px">
+                <p class="caption-text">Классификаторы в статистическом регистре</p>
+
             </div>
 
 
+            <table>
+                <thead>
 
+                <tr>
+                    <td>
+                        ОКПО
+                    </td>
 
+                    <td>
+                        00410695
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        ОКАТО
+                    </td>
 
+                    <td>
+                        67266000000
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        ОКТМО
+                    </td>
+
+                    <td>
+                        67312000000
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        ОКОГУ
+                    </td>
+
+                    <td>
+                        2300230
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        ОКФС
+                    </td>
+
+                    <td>
+                        13
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        ОКОПФ
+                    </td>
+
+                    <td>
+                        65242
+                    </td>
+                </tr>
+                </thead>
+            </table>
         </div>
+        <div class="row-fluid featured_port_title ">
+            <div class="caption-tile-about">
+                <div class="red-line"></div>
+                <p class="caption-text">О нас</p>
+                <p class="red-title">Большому кораблю большое плавание</p>
+
+            </div>
+        </div>
+
         <div class="row">
             <?php while ($wp_query->have_posts()) : $wp_query->the_post(); ?>
                 <div class="span4">
@@ -80,7 +222,7 @@ get_template_part('statisticbar') ;
 </div>
 
 <?php
-get_template_part('index','testimonals') ;
+    get_template_part('index','testimonals') ;
 ?>
 
 <?php get_footer();?>
