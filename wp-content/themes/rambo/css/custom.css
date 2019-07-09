@@ -623,7 +623,7 @@
 
 ul li, ol li {
 
-    margin: 0px 10px 0px 0px;
+    margin: 0px 8px 0px 0px;
 }
 @media (max-width: 1200px) {
     .banner-logo-wide {
