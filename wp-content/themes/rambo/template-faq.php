@@ -2,6 +2,7 @@
 /*
 Template Name: FAQ Template
 */
+
 get_header('second');
 
 $temp = $wp_query; $wp_query= null;
@@ -18,6 +19,7 @@ if(isset($_GET['post_id'])){
 ?>
 
 <?php my_get_template_part('redline', array('title' => 'FAQ')); ?>
+
     <div class="portfolio_main_content">
         <div class="container"  style="background-color:#f6f5f5 ">
 
@@ -54,6 +56,5 @@ if(isset($_GET['post_id'])){
 
 
 <?php
-/****** get footer section *********/
 get_footer();
 ?>

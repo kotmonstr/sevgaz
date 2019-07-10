@@ -5,22 +5,6 @@ function my_get_template_part($template, $data = array()){
     require locate_template($template.'.php');
 }
 
-
-function filter_function_name($title) {
-
-
-
-            $title = "DDD";
-
-
-    return $title;
-}
-
-add_filter( 'wp_title', 'filter_function_name', 10, 2 );
-
-
-
-
 // STAFF
 function create_staff() {
     register_post_type('staff', array(
