@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: FAQ Template2
+Template Name: FAQ Template
 */
 
 get_header('second');
@@ -29,7 +29,7 @@ if(isset($_GET['post_id'])){
                          <ul class="list-menu-project">
                              <?php while ($wp_query->have_posts()) : $wp_query->the_post(); ?>
                                 <?php $i++ ?>
-                                 <a href="/faq/?post_id=<?php echo get_the_ID() ?>"><li class="main-menu <?php echo isset($ID) && $ID == get_the_ID() || $i == 1 && !isset($ID) ? 'active' : ''  ?>"><?php the_title(); ?></li></a>
+                                 <a href="/vopros/?post_id=<?php echo get_the_ID() ?>"><li class="main-menu <?php echo isset($ID) && $ID == get_the_ID() || $i == 1 && !isset($ID) ? 'active' : ''  ?>"><?php the_title(); ?></li></a>
                              <?php endwhile; ?>
                          </ul>
                     </div>
