@@ -34,6 +34,37 @@ function create_staff() {
 }
 add_action( 'init', 'create_staff' );
 
+
+
+// NEWS
+function create_news() {
+    register_post_type('news', array(
+        'labels' => array(
+            'name'            => __( 'Новости' ),
+            'singular_name'   => __( 'Новости' ),
+            'add_new'         => __( 'Добавить Новость' ),
+            'add_new_item'    => __( 'Добавить Новость' ),
+            'edit'            => __( 'Редактировать Новость' ),
+            'edit_item'       => __( 'Редактировать Новость' ),
+            'new_item'        => __( 'Новость' ),
+            'all_items'       => __( 'Все Новости' ),
+            'view'            => __( 'Просмотр Новости' ),
+            'view_item'       => __( 'Просмотр Новости' ),
+            'search_items'    => __( 'Поиск Новости' ),
+            'not_found'       => __( 'Новость не найдена' ),
+        ),
+        'public' => true, // show in admin panel?
+        'menu_position' => 5,
+        'supports' => array( 'title', 'editor', 'thumbnail', 'excerpt', 'custom-fields'),
+        'taxonomies' => array( ),
+        'has_archive' => true,
+        'capability_type' => 'post',
+        'menu_icon'   => 'dashicons-index-card',
+        'rewrite' => array('slug' => 'faq'),
+    ));
+}
+add_action( 'init', 'create_news' );
+
 // FAQ
 function create_faq() {
     register_post_type('faq', array(
@@ -41,9 +72,9 @@ function create_faq() {
             'name'            => __( 'FAQ' ),
             'singular_name'   => __( 'FAQ' ),
             'add_new'         => __( 'Добавить FAQ' ),
-            'add_new_item'    => __( 'Добавить FAQ item' ),
+            'add_new_item'    => __( 'Добавить FAQ' ),
             'edit'            => __( 'Редактировать FAQ' ),
-            'edit_item'       => __( 'Редактировать FAQ item' ),
+            'edit_item'       => __( 'Редактировать FAQ' ),
             'new_item'        => __( 'FAQ' ),
             'all_items'       => __( 'Все FAQ' ),
             'view'            => __( 'Просмотр FAQ' ),
@@ -52,12 +83,12 @@ function create_faq() {
             'not_found'       => __( 'FAQ не найден' ),
         ),
         'public' => true, // show in admin panel?
-        'menu_position' => 5,
+        'menu_position' => 6,
         'supports' => array( 'title', 'editor', 'thumbnail', 'excerpt', 'custom-fields'),
         'taxonomies' => array( ),
         'has_archive' => true,
         'capability_type' => 'post',
-        'menu_icon'   => 'dashicons-admin-site',
+        'menu_icon'   => 'dashicons-editor-help',
         'rewrite' => array('slug' => 'faq'),
     ));
 }
