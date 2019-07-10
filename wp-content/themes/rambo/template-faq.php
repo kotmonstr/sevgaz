@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: FAQ Template
+Template Name: FAQ Template2
 */
 
 get_header('second');
