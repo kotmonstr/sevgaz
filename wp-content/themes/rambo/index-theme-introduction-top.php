@@ -12,7 +12,7 @@ $current_options = wp_parse_args(  get_option( 'rambo_pro_theme_options', array(
 <div class="container2">
 
     <div class="row-fluid">
-        <div class="span12 banner-logo-wide">
+        <div class="banner-logo-wide">
 
         </div>
 
@@ -22,7 +22,7 @@ $oldData = get_option( 'rambo_pro_theme_options');
 if(isset($oldData['site_intro_descritpion']) || isset($oldData['site_intro_descritpion'])){?>
 
 
-          <div class="span12" style="padding: 0px;margin: -5px">
+          <div class="" style="padding: 0px;width: 100%;">
                 <?php// echo do_shortcode('[sp_wpcarousel id="232"]'); ?>
                 <?php echo do_shortcode('[rev_slider alias="main-revo"]'); ?>
          </div>

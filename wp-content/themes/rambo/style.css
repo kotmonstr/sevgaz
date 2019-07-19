@@ -248,9 +248,12 @@ div.boxed {
 /*===================================================================================*/
 
 .logo-title {  font-weight: 400; font-size: 60px; line-height: 50px; white-space: normal; display: block; vertical-align: middle; }
-.logo-title small { color: #4d4e4f; font-size: 24px; line-height: normal; }
+.logo-title small { color: #4d4e4f; font-size: 20px; line-height: normal; }
 .brand img.custom-logo { margin: 4px 0 0; }
 
+@media (max-width: 1200px) {
+	.navbar .nav{float: left !important;}
+}
 /*===================================================================================*/
 /*  MENU CSS 
 /*===================================================================================*/

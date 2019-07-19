@@ -20,6 +20,9 @@
 		wp_head(); ?>
 </head>
 <body <?php body_class(); ?> >
+
+<div class="visually-bl"><?php echo do_shortcode( ' [FTVI]' ); ?></div>
+
 <div class="container">		
 		<div class="navbar">
             <div class="navbar-inner">
