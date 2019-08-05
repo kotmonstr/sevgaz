@@ -67,19 +67,20 @@
                         <?php } ?>
                     </a>
 				  <!------ end of logo -------->
-                  <div class="nav-collapse collapse navbar-responsive-collapse">
 
-				  <?php	wp_nav_menu( array(  
-									'theme_location' => 'primary',
-									'container'  => 'nav-collapse collapse navbar-inverse-collapse',
-									'menu_class' => 'nav nav-new',
-									'fallback_cb' => 'webriti_fallback_page_menu',
-									'walker' => new webriti_nav_walker()
-									)
-								);	?>                    
-                  </div><!-- /.nav-collapse -->
                 </div>
             </div><!-- /navbar-inner -->
         </div>
 </div>
+    <div class="nav-collapse collapse navbar-responsive-collapse" id="line-menu">
+
+        <?php	wp_nav_menu( array(
+                'theme_location' => 'primary',
+                'container'  => 'nav-collapse collapse navbar-inverse-collapse',
+                'menu_class' => 'nav nav-new',
+                'fallback_cb' => 'webriti_fallback_page_menu',
+                'walker' => new webriti_nav_walker()
+            )
+        );	?>
+    </div><!-- /.nav-collapse -->
 </div>

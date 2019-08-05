@@ -645,8 +645,11 @@
 }
 
 ul li, ol li {
+    margin: 0px 25px -15px 0px;
+}
 
-    margin: 0px 8px 0px 0px;
+b.caret{
+    margin-top:10px !important;
 }
 
 .visually-bl{
@@ -661,6 +664,27 @@ ul li, ol li {
     right: 0;
     background-color: rgb(180, 32, 32);
 }
+
+/** munu **/
+#line-menu{
+    text-align: center;
+    background-color: #1b7a96;
+    color: #fff;
+}
+.nav{
+display: inline-flex;
+}
+
+.dropdown-toggle   {
+    color: #fff !important;
+}.dropdown-toggle:hover {
+     background-color: #293836 !important;
+}
+.dropdown-menu > li > a {
+    color: #1b7a96 !important
+}
+
+
 
 @media (max-width: 1200px) {
     .banner-logo-wide {

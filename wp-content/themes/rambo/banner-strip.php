@@ -1,5 +1,5 @@
 <?php 
-get_header();
+get_header('second');
 
 //For pages
 $slider_enable_page = sanitize_text_field( get_post_meta( get_the_ID(), 'slider_enable_page', true ));
