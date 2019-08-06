@@ -690,6 +690,12 @@ b.caret{
     color: #1b7a96 !important
 }
 
+/*footer*/
+.footer-section{
+    position : fixed;
+    bottom : 0;
+    width: 100%;
+}
 
 
 @media (max-width: 1200px) {

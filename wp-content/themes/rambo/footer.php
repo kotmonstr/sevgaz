@@ -21,7 +21,7 @@ $rambo_pro_theme_options = theme_data_setup();
 $current_options = wp_parse_args(  get_option( 'rambo_pro_theme_options', array() ), $rambo_pro_theme_options ); ?>
 
 <!-- Footer Section -->
-<div class="footer-section">
+    <div class="footer-section">
 	<div class="container">
 		<div class="row">
 			<div class="span8">
@@ -66,7 +66,7 @@ $current_options = wp_parse_args(  get_option( 'rambo_pro_theme_options', array(
 			</div>		
 		</div>
 	</div>		
-</div>		
+</div>
 <!-- Footer Section-->
 
 <?php
