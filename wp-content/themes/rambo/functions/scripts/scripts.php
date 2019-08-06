@@ -24,6 +24,7 @@ function rambo_scripts()
 	wp_enqueue_script('Bootstrap-transtiton',WEBRITI_TEMPLATE_DIR_URI.'/js/menu/menu.js');
 	
 	wp_enqueue_script('Bootstrap-transtiton',WEBRITI_TEMPLATE_DIR_URI.'/js/bootstrap-transition.js');
+	wp_enqueue_script('custom-css',WEBRITI_TEMPLATE_DIR_URI.'/js/custom.js');
 	/*Color Schemes*/
 	
 	

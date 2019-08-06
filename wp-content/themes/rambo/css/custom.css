@@ -44,9 +44,14 @@
     background-size: contain;
     //height: 100px;
 }
+.content-tab{
+    padding: 20px;
 
+}
 
-
+.content-list-docs li {
+    margin-bottom: -18px !important;
+}
 
 
 .banner-logo-wide{
