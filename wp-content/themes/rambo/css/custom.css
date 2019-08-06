@@ -497,6 +497,7 @@
 
 .portfolio_main_content, .additional_section_one {
     /*padding: 20px 57px 12px;*/
+    min-height: 600px;
 }
 
 .hero-widgets-section {
