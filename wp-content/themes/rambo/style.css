@@ -433,7 +433,7 @@ a { text-decoration: none; }
 .portfolio_main_content, .additional_section_one {
 	background-color: #f6f5f5;
 	border-top: 1px solid #d1cfcf;
-	border-bottom: 1px solid #d1cfcf;
+	/*border-bottom: 1px solid #d1cfcf;*/
 	color: inherit;
 	font-size: 14px;
 	font-weight: 400;

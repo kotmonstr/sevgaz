@@ -10,7 +10,7 @@
 
   	if('page' == get_option('show_on_front')){ get_template_part('index');}
 
-	else {get_header();
+	else {get_header('');
 
   	/****** get index banner  ********/
   	get_template_part('index', 'banner') ;
