@@ -1,13 +1,13 @@
 function showContent(id) {
-    //console.log(id);
-    //console.log(this);
 
-    jQuery('.tab-content').hide();
-    jQuery('#'+id).show('slow');
+    if (jQuery('#tab-'+ id).hasClass('active')){
+        jQuery('#'+ id).css('display','none');
+    }else{
 
-    jQuery('li').removeClass('active');
-    jQuery('#tab-' + id).addClass('active');
+        jQuery('.tab-content').hide();
+        jQuery('li').removeClass('active');
 
-
-
+        jQuery('#'+id).show('slow');
+        jQuery('#tab-' + id).addClass('active');
+    }
 }
