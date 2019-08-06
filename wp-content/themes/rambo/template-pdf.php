@@ -18,7 +18,7 @@ if(isset($_GET['post_id'])){
 
 ?>
 
-<?php my_get_template_part('redline', array('title' => 'PDF')); ?>
+<?php my_get_template_part('redline', array('title' => 'База нормативных актов')); ?>
 
     <div class="portfolio_main_content">
         <div class="container"  style="background-color:#f6f5f5 ">
