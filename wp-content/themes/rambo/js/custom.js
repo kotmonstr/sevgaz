@@ -2,6 +2,7 @@ function showContent(id) {
 
     if (jQuery('#tab-'+ id).hasClass('active')){
         jQuery('#'+ id).css('display','none');
+        jQuery('#tab-'+ id).removeClass('active');
     }else{
 
         jQuery('.tab-content').hide();
