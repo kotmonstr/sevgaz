@@ -21,10 +21,7 @@ if(isset($_GET['post_id'])){
 
     <div class="portfolio_main_content">
 <div class="container"  style="background-color:#f6f5f5 ">
-
-
     <div class="row" style="margin-bottom: 25px">
-
          <div class="span4">
              <div class="menu-project">
                  <ul class="list-menu-project">
