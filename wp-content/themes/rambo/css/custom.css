@@ -665,7 +665,7 @@ b.caret{
     justify-content: center;
     width: 60px;
     height: 46px;
-    top:100px;
+    top:32px;
     z-index: 99999;
     right: 0;
     background-color: rgb(180, 32, 32);
