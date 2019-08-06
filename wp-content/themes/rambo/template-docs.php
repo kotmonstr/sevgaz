@@ -20,7 +20,7 @@ if (isset($_GET['post_id'])) {
 
 ?>
 
-<?php my_get_template_part('redline', array('title' => 'Документы')); ?>
+<?php my_get_template_part('redline', array('title' => 'Список Документов')); ?>
 
     <div class="portfolio_main_content" style="margin-bottom: 50px">
         <div class="container" style="background-color:#f6f5f5 ">
@@ -33,7 +33,7 @@ if (isset($_GET['post_id'])) {
                         <div class="menu-project content-list-docs">
                             <ul class="list-menu-project">
                                 <a href="javascript:void(0)" onclick="showContent(<?php echo get_the_ID() ?>)">
-                                    <li class="main-menu <?php echo isset($ID) && $ID == get_the_ID() || $i == 1 && !isset($ID) ? 'active' : '' ?>"><?php the_title(); ?></li>
+                                    <li id="tab-<?php echo get_the_ID() ?>"  class="main-menu <?php echo isset($ID) && $ID == get_the_ID() || $i == 1 && !isset($ID) ? 'active' : '' ?>"><?php the_title(); ?></li>
                                 </a>
                             </ul>
                         </div>
