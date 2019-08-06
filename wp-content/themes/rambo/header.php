@@ -32,32 +32,34 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                   </a>
-				  <!-------custom logo and custom test and defualt logo text-------->
-                 
-				<?php		
-				
-					if(has_custom_logo())
-					{
-					// Display the Custom Logo
-					the_custom_logo();
-					}
-				
-				 elseif($rambopro_current_options['rambo_texttitle'] ==true) { ?>
+
 				  <?php $blogname = get_bloginfo( );
 						$blogname1 = substr($blogname,0,1);
 						$blogname2 = substr($blogname,1);
 				  ?>
-                    <a href="<?php echo home_url( '/' ); ?>" class="brand">
-                   <img src="<?php echo get_template_directory_uri();?>/alvion/images/logo.png" alt="logo" style="width: 50px;text-align: left;float: left;margin-right: 10px">
 
-				  <span class="logo-title"><small><?php echo ucfirst($blogname1); ?><?php echo $blogname2; ?></small></span>
-				  <?php } else if($rambopro_current_options['upload_image_logo']!='')
-						{ ?><img src="<?php echo $rambopro_current_options['upload_image_logo']; ?>" style="height:<?php if($rambopro_current_options['height']!='') { echo $rambopro_current_options['height']; }  else { "50"; } ?>px; width:<?php if($rambopro_current_options['width']!='') { echo $rambopro_current_options['width']; }  else { "150"; } ?>px;" /><?php
-						} else { ?>
-					<span class="logo-title"><?php sprintf(__('R<small>ambo</small>','rambo')); ?></span>
-					<?php } ?>
-				  </a>
-				  <!------ end of logo -------->
+                   <div class="header-flex-top">
+                       <div class="flex-line-one">
+                          <a href="<?php echo home_url( '/' ); ?>" class="brand">
+                              <img src="<?php echo get_template_directory_uri();?>/alvion/images/logo.png" alt="logo" style="width: 50px;text-align: left;float: left;margin-right: 10px">
+                              <span class="logo-title"><small><?php echo ucfirst($blogname1); ?><?php echo $blogname2; ?></small></span>
+                          </a>
+                       </div>
+                       <div class="flex-line-two">
+                           <form role="search" method="get" id="searchform" class="searchform" action="/">
+                               <div>
+                                   <label class="screen-reader-text" for="s">Search for:</label>
+                                   <input type="text" value="" name="s" id="s" />
+
+                               </div>
+                           </form>
+                       </div>
+                       <div class="flex-line-tree">
+                            <p>Единый контактный центр<br>
+                            +7(978)082-62-32</p>
+                       </div>
+                   </div>
+
 
                 </div>
             </div><!-- /navbar-inner -->

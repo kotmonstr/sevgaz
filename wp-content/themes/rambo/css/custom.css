@@ -702,6 +702,23 @@ b.caret{
     width: 100%;
 }
 
+/*header flex */
+.header-flex-top{
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+}
+
+.flex-line-two{
+    margin-top: 18px;
+}
+.flex-line-tree{
+    margin-top: 13px;
+}
+
+
+
+
 
 @media (max-width: 1200px) {
     .banner-logo-wide {
