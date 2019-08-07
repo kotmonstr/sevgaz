@@ -20,7 +20,7 @@ get_template_part('index','slider');
 	<!-- Blog Section Content -->
 	<div class="row-fluid">
 		<!-- Blog Main -->
-		<div class="<?php if( is_active_sidebar('sidebar-primary')) echo "span8"; else echo "span12";?> Blog_main">
+		<div class="<?php if( is_active_sidebar('sidebar-primary')) echo "span12"; else echo "span12";?> Blog_main">
 			<?php
 				$paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
 				$args = array('category_name'=> 'news', 'post_type' => 'post','paged'=>$paged);
@@ -69,14 +69,23 @@ get_template_part('index','slider');
                         <?php }  wp_link_pages( $args ); ?>
 			        </div>
 			<?php endwhile; ?>
-			<?php rambo_post_pagination(); // call post pagination ?>
+            <div class="pagination_section" style="margin-bottom: 70px">
+                <div class="pagination text-center">
+                    <ul>
+                        <?php
+                        the_posts_pagination( array(
+                            'prev_text'          => '<i class="fa fa-angle-double-left"></i>',
+                            'next_text'          => '<i class="fa fa-angle-double-right"></i>',
+                        ) ); ?>
+                    </ul>
+                </div>
+            </div>
 		</div>
-		 <?php// get_sidebar();?>
 	</div>
 </div>
 </div>
 
-<?php   get_template_part('index','testimonals') ;?>
+
 
 
 <?php get_footer();?>
