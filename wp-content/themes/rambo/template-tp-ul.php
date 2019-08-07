@@ -17,7 +17,7 @@ if(isset($_GET['post_id'])){
 
 ?>
 
-<?php my_get_template_part('redline', array('title' => 'Технологическое подключение физического лица')); ?>
+<?php my_get_template_part('redline', array('title' => 'Технологическое подключение юридического лица')); ?>
 
     <div class="portfolio_main_content">
 <div class="container"  style="background-color:#f6f5f5 ">
@@ -27,7 +27,7 @@ if(isset($_GET['post_id'])){
                  <ul class="list-menu-project">
                      <?php while ($wp_query->have_posts()) : $wp_query->the_post(); ?>
                         <?php $i++ ?>
-                         <a href="/texnologicheskoe-prisoedinenie/tp-fizicheskie-lica-2/?post_id=<?php echo get_the_ID() ?>"><li class="main-menu <?php echo isset($ID) && $ID == get_the_ID() || $i == 1 && !isset($ID) ? 'active' : ''  ?>"><?php the_title(); ?></li></a>
+                         <a href="/texnologicheskoe-prisoedinenie/tp-fizicheskie-lica/?post_id=<?php echo get_the_ID() ?>"><li class="main-menu <?php echo isset($ID) && $ID == get_the_ID() || $i == 1 && !isset($ID) ? 'active' : ''  ?>"><?php the_title(); ?></li></a>
                      <?php endwhile; ?>
                  </ul>
             </div>
