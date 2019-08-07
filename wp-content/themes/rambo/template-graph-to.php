@@ -6,13 +6,10 @@ Template Name: Графики проведения ТО
 get_header('second');
 
 $currYear = $_GET['postY'];
-//var_dump($currYear);
 $temp = $wp_query; $wp_query= null;
 
 if(isset($currYear)){
     $wp_query = new WP_Query(); $wp_query->query('showposts=100' . '&paged='.$paged . '&category_name=graf'. '&year='.$currYear);
-
-    //var_dump($wp_query); die();
 }else{
     $wp_query = new WP_Query(); $wp_query->query('showposts=100' . '&paged='.$paged . '&category_name=graf');
 }
@@ -30,17 +27,11 @@ while ($wp_query2->have_posts()) : $wp_query2->the_post();
     $arrDataM[]= date("m",get_post_time());
 endwhile;
 
-//var_dump($arrDataY);die();
 $arrDataY = array_unique($arrDataY); // Года
 $arrDataM = array_unique($arrDataM); // Месяцы
 
-var_dump($arrDataY);
-var_dump($arrDataM);
-
-
-
-
-
+//var_dump($arrDataY);
+//var_dump($arrDataM);
 $i=0;
 
 if(isset($_GET['post_id'])){
