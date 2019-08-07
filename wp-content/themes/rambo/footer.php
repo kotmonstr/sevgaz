@@ -24,7 +24,7 @@ $current_options = wp_parse_args(  get_option( 'rambo_pro_theme_options', array(
     <div class="footer-section">
 	<div class="container">
 		<div class="row">
-			<div class="span8">
+			<div class="span9">
 				<?php if( isset( $current_options['footer_copyright'] ) && $current_options['footer_copyright'] != '' ) { ?>
 					<p><?php echo $current_options['footer_copyright']; ?></p>	
 				<?php } else{ ?> 
@@ -40,7 +40,7 @@ $current_options = wp_parse_args(  get_option( 'rambo_pro_theme_options', array(
 				</p>
 				<?php }?>
 			</div>
-			<div class="span4">
+			<div class="span3">
 
 
 
