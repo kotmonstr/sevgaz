@@ -656,6 +656,8 @@ ul li, ol li {
 
 b.caret{
     margin-top:10px !important;
+    border-top-color: #fff !important;
+    border-bottom-color: #fff !important;
 }
 
 .visually-bl{
@@ -675,6 +677,7 @@ b.caret{
 #line-menu{
     text-align: center;
     background-color: #1b7a96;
+
     color: #fff;
 }
 
