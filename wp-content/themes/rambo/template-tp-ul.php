@@ -1,18 +1,18 @@
 <?php
 /*
-Template Name: ТП физические лица
+Template Name: ТП юридического лица
 */
 get_header('second');
 
 $temp = $wp_query; $wp_query= null;
-$wp_query = new WP_Query(); $wp_query->query('&category_name=fiz-form');
-$wp_query_post_first = new WP_Query(); $wp_query_post_first->query('showposts=1' . '&category_name=fiz-form');
+$wp_query = new WP_Query(); $wp_query->query('&category_name=ur-form');
+$wp_query_post_first = new WP_Query(); $wp_query_post_first->query('showposts=1' . '&category_name=ur-form');
 $i=0;
 
 if(isset($_GET['post_id'])){
     $ID = $_GET['post_id'];
     $wp_query_post_first = new WP_Query();
-    $wp_query_post_first->query('p='.$ID . '&category_name=fiz-form'. '&order=DESC');
+    $wp_query_post_first->query('p='.$ID . '&category_name=ur-form'. '&order=DESC');
 }
 
 ?>
