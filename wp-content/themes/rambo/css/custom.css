@@ -702,6 +702,10 @@ b.caret{
     padding: 7px 0;
 }
 
+.current-menu-item{
+    background-color: rgba(44, 166, 178, 0.65) !important;
+}
+
 /*footer*/
 .footer-section{
     position : fixed;
