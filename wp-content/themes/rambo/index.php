@@ -13,10 +13,6 @@ get_template_part('index','slider');
 <div class="portfolio_main_content">
     <div class="container" >
 
-<!--        <div class="team_head_title">-->
-<!--            <h3 class="widget-title">НОВОСТИ</h3>-->
-<!--        </div>-->
-
 	<!-- Blog Section Content -->
 	<div class="row-fluid">
 		<!-- Blog Main -->
@@ -69,10 +65,13 @@ get_template_part('index','slider');
                         <?php }  wp_link_pages( $args ); ?>
 			        </div>
 			<?php endwhile; ?>
-            <div class="pagination_section" style="margin-bottom: 70px">
+
+
+
+            <div class="pagination_section">
                 <div class="pagination text-center">
                     <ul>
-                        <?php
+                        <?php $GLOBALS['wp_query']->max_num_pages = $post_type_data->max_num_pages;
                         the_posts_pagination( array(
                             'prev_text'          => '<i class="fa fa-angle-double-left"></i>',
                             'next_text'          => '<i class="fa fa-angle-double-right"></i>',
@@ -80,6 +79,8 @@ get_template_part('index','slider');
                     </ul>
                 </div>
             </div>
+
+
 		</div>
 	</div>
 </div>
