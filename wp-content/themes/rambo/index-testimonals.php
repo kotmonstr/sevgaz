@@ -1,4 +1,4 @@
-<div class="testimonial-main" style="height: 225px">
+<div class="testimonial-main" style="height: 225px;margin-bottom: 70px">
     <div class="container">
 
        <h2 class="testimanals-title">ОТЗЫВЫ О НАШЕЙ РАБОТЕ</h2>
