@@ -17,7 +17,7 @@
 
         <div class="row-fluid all-adress">
 
-            <div id="adress-box" class="Blog_main span6">
+            <div id="adress-box" class="Blog_main span5">
 
 
 
@@ -58,7 +58,7 @@
                 </div>
             </div>
 
-            <div class="Blog_main span6">
+            <div class="Blog_main span7">
 
                 <div class="red-line"></div>
                 <div class="caption-tile-about">
