@@ -732,7 +732,7 @@ b.caret{
 
 }
 .rc-anchor-light{
-    margin-top: 25px;
+    margin-top: 25px !important;
 }
 
 
