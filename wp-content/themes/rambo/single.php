@@ -6,7 +6,7 @@
             <div class="row-fluid purchase_now_content" style="position: relative">
                 <div class="" style="text-align: center">
                     <h1 class="red-line-title" style="text-align: center">
-                        <?php echo excerpt(get_the_title(),4,'...')?>
+                        <?php echo wp_trim_words(get_the_title(),5,'...')?>
                     </h1>
                 </div>
                 <div class="pull-right" style="position: absolute;top: 0px;right: 0px">
