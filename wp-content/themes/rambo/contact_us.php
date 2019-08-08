@@ -15,7 +15,7 @@
         </div>
 
 
-        <div class="row-fluid all-adress">
+        <div class="row-fluid all-adress" style="margin-bottom: 70px">
 
             <div id="adress-box" class="Blog_main span5">
 
