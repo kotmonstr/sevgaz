@@ -273,12 +273,13 @@ div.boxed {
 	text-decoration: none;
 	transition: all 0.2s ease-in-out 0s; 
 	font-size: 16px;
+
 }
 .navbar .nav > li > a:focus,
-.navbar .nav > li > a:hover { color: #ffffff !important; text-decoration: none; border-bottom: none; }
-.navbar .nav > .active > a { color: #fff; }
+.navbar .nav > li > a:hover { color: #ffffff !important; text-decoration: none; border-bottom: none;	padding: 15px 20px; }
+.navbar .nav > .active > a { color: #fff; padding: 15px 20px;}
 .navbar .nav > .active > a:hover,
-.navbar .nav > .active > a:focus { text-decoration: none; border-bottom: none; color: #ffffff; }
+.navbar .nav > .active > a:focus { text-decoration: none; border-bottom: none; color: #ffffff;padding: 15px 20px; }
 .dropdown-menu {
 	background-color: #ffffff;
 	border-left: 1px solid #dbdbdb;
@@ -291,8 +292,8 @@ div.boxed {
 	display: none;
 	float: left;
 	min-width: 245px;
-	padding: 0px 0;
-	margin: 0px 0 0;
+	padding: 0 0;
+	margin: 0 0;
 	list-style: none;
 	-webkit-background-clip: padding-box;
 	-moz-background-clip: padding;
@@ -309,7 +310,8 @@ div.boxed {
 	font-family: 'Roboto';
 	font-weight:400;
 	display: block;
-	padding: 14px 20px;
+	padding: 15px 20px;
+	vertical-align: center;
 	clear: both;
 	font-weight: normal;
 	font-size: 15px;
