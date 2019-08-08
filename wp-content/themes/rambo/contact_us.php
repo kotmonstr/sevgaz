@@ -67,7 +67,7 @@
 
                 <p>Если Вы хотите получить консультацию, пожалуйста, заполните эту форму:</p>
 
-                         <?php echo do_shortcode('[formidable id=3]'); ?>
+                         <?php echo do_shortcode('[huge_it_forms id="2"]'); ?>
             </div>
         </div>
 	</div>
