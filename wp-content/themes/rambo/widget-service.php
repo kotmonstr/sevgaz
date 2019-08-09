@@ -16,7 +16,7 @@ $wp_query = new WP_Query(); $wp_query->query('showposts=30&post_type=page&post_p
                     <div id="" class="span4 featured_port_projects widget widget_rambo_feature_page_widget">
                         <a href="<?php the_permalink(); ?>">
                             <div class="featured-service-img">
-                                <?php  echo the_post_thumbnail('large'); ?>
+                                <?php  echo the_post_thumbnail('medium'); ?>
                             </div>
                         </a>
                         <h2 class="widget-title">
@@ -30,4 +30,6 @@ $wp_query = new WP_Query(); $wp_query->query('showposts=30&post_type=page&post_p
     </div>
 </div>
 </div>
+
+
 
