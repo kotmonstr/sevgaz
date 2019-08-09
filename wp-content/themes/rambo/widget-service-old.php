@@ -1,7 +1,6 @@
 <?php
 $temp = $wp_query; $wp_query= null;
-//$wp_query = new WP_Query(); $wp_query->query('showposts=30&post_type=page&post_parent=1379');  // локал
-$wp_query = new WP_Query(); $wp_query->query('showposts=30&post_type=page&post_parent=1438'); // прод
+$wp_query = new WP_Query(); $wp_query->query('showposts=30&category_name=uslugi');
 ?>
 
 <div class="row">
