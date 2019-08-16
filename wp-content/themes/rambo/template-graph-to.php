@@ -86,11 +86,10 @@ if(isset($_GET['post_id'])){
                     </div>
                 </div>
 
+<?php } ?>
             </div>
         </div>
     </div>
-<?php } ?>
-
 
 <?php
 get_footer();

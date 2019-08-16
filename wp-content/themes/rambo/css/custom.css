@@ -3,6 +3,7 @@ html{
 }
 body{
     height: 100%;
+    background-color: #f6f5f5;
 }
 
 .content-body{
@@ -711,11 +712,11 @@ ul li, ol li {
 .searchform .fa.fa-search{
     position: absolute;
     right: 2px;
-    top: 1px;
+    top: 2px;
     background-color: #fff;
     display: block;
-    line-height: 34px;
-    height: 32px;
+    line-height: 31px;
+    height: 31px;
     text-align: center;
     width: 32px;
     cursor: pointer;
