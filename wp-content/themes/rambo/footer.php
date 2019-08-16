@@ -15,6 +15,7 @@ $current_options = wp_parse_args(  get_option( 'rambo_pro_theme_options', array(
 	</div>
 </div>
 <?php } ?>
+</div>
 <!-- /Widgets Section -->
 <?php
 $rambo_pro_theme_options = theme_data_setup();
@@ -27,7 +28,7 @@ $current_options = wp_parse_args(  get_option( 'rambo_pro_theme_options', array(
 			<div class="span9">
 				<?php if( isset( $current_options['footer_copyright'] ) && $current_options['footer_copyright'] != '' ) { ?>
 					<p><?php echo $current_options['footer_copyright']; ?></p>	
-				<?php } else{ ?> 
+				<?php } else{ ?>
 				<p><?php _e('Powered By ','rambo');?> <a target="_blank" href="<?php echo esc_url ( 'http://wordpress.org/') ; ?>"> <?php _e('WordPress','rambo');?></a>&nbsp;&nbsp;<?php if($current_options['rambo_designed_by_head']!=''){ echo ($current_options['rambo_designed_by_head']); } ?>
 				<?php if(is_home()) {?>
 				  <a rel="nofollow" target="_blank" href="<?php if($current_options['rambo_designed_by_link']!='') { echo esc_url($current_options['rambo_designed_by_link']);} ?>"><?php if($current_options['rambo_designed_by_text']!='') { ?>

@@ -43,7 +43,7 @@ if (isset($_GET['post_id'])) {
 }
 ?>
 
-    <div class="portfolio_main_content" style="margin-bottom: 50px">
+    <div class="portfolio_main_content">
         <div class="container" style="background-color:#f6f5f5 ">
             <div class="row" style="margin-bottom: 25px">
                 <h1 style="text-align: center">Рекомендации по пользованию</h1>

@@ -22,7 +22,7 @@ if (isset($_GET['post_id'])) {
 
 <?php my_get_template_part('redline', array('title' => 'Список Документов')); ?>
 
-    <div class="portfolio_main_content" style="margin-bottom: 50px">
+    <div class="portfolio_main_content">
         <div class="container" style="background-color:#f6f5f5 ">
             <div class="row" style="margin-bottom: 25px">
 

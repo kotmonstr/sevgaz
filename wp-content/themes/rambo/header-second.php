@@ -21,11 +21,12 @@
 </head>
 
 <body <?php body_class(); ?> >
-
+<div class="content-body">
 <div class="menu-top-gray">
 
-<div class="container">
+<div class="visually-bl"><?php echo do_shortcode( ' [FTVI]' ); ?></div>
 
+<div class="container">
 		<div class="navbar">
 
             <div class="navbar-inner">
@@ -54,7 +55,7 @@
                     <a href="<?php echo home_url( '/' ); ?>" class="brand">
 
                         <!--                          <img id="fixed-logo" src="--><?php //echo get_template_directory_uri();?><!--/alvion/images/logo.png" alt="logo" >-->
-                        <img id="fixed-logo-start" src="<?php echo get_template_directory_uri();?>/alvion/images/logo.png" alt="logo" style="width: 50px;text-align: left;float: left;margin-right: 10px">
+                        <img id="fixed-logo-start" src="<?php echo get_template_directory_uri();?>/alvion/images/logo.png" alt="logo" style="height: 58px;text-align: left;float: left;margin-right: 10px">
 
                         <!--                          <span id="fixed-logo-title" class="logo-title logo-new"><small>--><?php //echo ucfirst($blogname1); ?><!----><?php //echo $blogname2; ?><!--</small></span>-->
                         <span id="fixed-logo-title-start" class="logo-title logo-new"><small><?php echo ucfirst($blogname1); ?><?php echo $blogname2; ?></small></span>

@@ -20,13 +20,13 @@
 		wp_head(''); ?>
 </head>
 <body <?php body_class(); ?> >
-
+<div class="content-body">
 <div class="visually-bl"><?php echo do_shortcode( ' [FTVI]' ); ?></div>
 
-<div class="container">		
+<div class="container container-mb">
 		<div class="navbar">
             <div class="navbar-inner">
-                <div class="container">
+                <div class="">
                   <a data-target=".navbar-responsive-collapse" data-toggle="collapse" class="btn btn-navbar">
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
@@ -41,8 +41,8 @@
                    <div class="header-flex-top">
                        <div class="flex-line-one">
                           <a href="<?php echo home_url( '/' ); ?>" class="brand">
-                              <img src="<?php echo get_template_directory_uri();?>/alvion/images/logo.png" alt="logo" style="width: 50px;text-align: left;float: left;margin-right: 10px">
-                              <span class="logo-title"><small><?php echo ucfirst($blogname1); ?><?php echo $blogname2; ?></small></span>
+                              <img src="<?php echo get_template_directory_uri();?>/alvion/images/logo.png" alt="logo" style="height: 58px;text-align: left;float: left;margin-right: 10px">
+                              <span class="logo-title"><?php echo ucfirst($blogname1); ?><?php echo $blogname2; ?></span>
                           </a>
                        </div>
                        <div class="flex-line-two">
@@ -50,7 +50,7 @@
                                <div>
                                    <label class="screen-reader-text" for="s">Search for:</label>
                                    <input type="text" value="" name="s" id="s" />
-
+                                   <i class="fa fa-search" onclick="jQuery('#searchform').submit()" ></i>
                                </div>
                            </form>
                        </div>
@@ -70,7 +70,7 @@
     <?php	wp_nav_menu( array(
             'theme_location' => 'primary',
             'container'  => 'nav-collapse collapse navbar-inverse-collapse',
-            'menu_class' => 'nav',
+            'menu_class' => 'nav nav-new',
             'fallback_cb' => 'webriti_fallback_page_menu',
             'walker' => new webriti_nav_walker()
         )
