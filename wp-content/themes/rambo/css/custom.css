@@ -709,6 +709,11 @@ ul li, ol li {
 .searchform input{
     margin: 0;
 }
+.pagination ul{
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
 .searchform .fa.fa-search{
     position: absolute;
     right: 2px;
